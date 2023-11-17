@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
   //const MyApp({Key key=}) : super(key: key);
   const MyApp({key}) : super(key: key);
@@ -13,13 +14,12 @@ class MyApp extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 21, 67, 147),
         
         body: Container(
-          
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                radius: 50.0,
-                backgroundImage: AssetImage('images/animegirl.JPG'),
+                radius: 100.0,
+                backgroundImage: AssetImage('images/animegirl.jpg'),
               ),
               Text(
                 'Khushi Soni',
